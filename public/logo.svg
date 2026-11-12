@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 90" width="340" height="90" fill="none">
+  <defs>
+    <linearGradient id="bodyBalanceGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffa34d" />
+      <stop offset="50%" stop-color="#f48915" />
+      <stop offset="100%" stop-color="#db4b00" />
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Fitness Dumbbell Emblem -->
+  <g transform="translate(6, 18)" filter="url(#softShadow)">
+    <!-- Left outer plate -->
+    <rect x="2" y="8" width="9" height="38" rx="3" fill="url(#bodyBalanceGrad)" />
+    <!-- Left inner plate -->
+    <rect x="13" y="13" width="7" height="28" rx="2" fill="#ffffff" />
+    <!-- Barbell shaft -->
+    <rect x="20" y="24" width="28" height="6" rx="2" fill="url(#bodyBalanceGrad)" />
+    <!-- Center grip ring -->
+    <rect x="30" y="22" width="8" height="10" rx="2" fill="#ffffff" />
+    <!-- Right inner plate -->
+    <rect x="48" y="13" width="7" height="28" rx="2" fill="#ffffff" />
+    <!-- Right outer plate -->
+    <rect x="57" y="8" width="9" height="38" rx="3" fill="url(#bodyBalanceGrad)" />
+  </g>
+
+  <!-- Brand Typography -->
+  <g filter="url(#softShadow)">
+    <!-- "BODY" -->
+    <text x="82" y="44" fill="#ffffff" font-family="'Montserrat', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif" font-size="34" font-weight="900" letter-spacing="2">BODY</text>
+    <!-- "BALANCE" -->
+    <text x="82" y="74" fill="url(#bodyBalanceGrad)" font-family="'Montserrat', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif" font-size="27" font-weight="800" letter-spacing="3.5">BALANCE</text>
+  </g>
+
+  <!-- Sport accent dynamic slash -->
+  <line x1="295" y1="26" x2="275" y2="74" stroke="url(#bodyBalanceGrad)" stroke-width="3.5" stroke-linecap="round" opacity="0.9" />
+</svg>
+
